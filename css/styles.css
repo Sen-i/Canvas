@@ -1,0 +1,91 @@
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: "spartan";
+    background-color: #ffffff;
+}
+
+.chartContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-direction: column;
+}
+
+.chart{
+    display: flex; 
+}
+
+.numberContiner{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    border: none;
+    border-right: 2px solid #6b6b6b;
+}
+
+.gridContiner{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #6b6b6b;
+}
+
+.walkBlocks, .cycleBlocks, .carBlocks{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #6b6b6b;
+    border-left: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.firstBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+
+.labelBox{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.lableContiner{
+    display: flex;
+    flex-direction: row;
+}
+
+.rotate {
+    display: inline-block;
+    transform: rotate(45deg); 
+    -moz-transform: rotate(45deg);
+  }
+
+.redBackground{
+    background-color: #ff0000;
+}
+
+.yellowBackground{
+    background-color: #ffd900;
+}
+
+.blueBackground{
+    background-color: #1900ff;
+}
