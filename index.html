@@ -5,14 +5,60 @@
 <head>
     <meta charset="utf-8">
 
-    <title>The HTML5 Herald</title>
+    <title>Canvas</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/gridStyleSheet.css">
 
 </head>
 
 <body>
-    <script src="js/scripts.js"></script>
+    <script src="js/gridScripts.js" async></script>
+    <div class="chartContainer">
+        <div class="chart">
+            <div class="numberContiner">
+                <div class="firstBox">1</div>
+                <div class="firstBox">2</div>
+                <div class="firstBox">3</div>
+                <div class="firstBox">4</div>
+                <div class="firstBox">5</div>
+            </div>
+            <div class="gridContiner">
+                <div class="walkBlocks">
+                    <div class="box walkBox"></div>
+                    <div class="box walkBox"></div>
+                    <div class="box walkBox"></div>
+                    <div class="box walkBox"></div>
+                    <div class="box walkBox"></div>
+                </div>
+                <div class="cycleBlocks">
+                    <div class="box cycleBox"></div>
+                    <div class="box cycleBox"></div>
+                    <div class="box cycleBox"></div>
+                    <div class="box cycleBox"></div>
+                    <div class="box cycleBox"></div>
+                </div>
+                <div class="carBlocks">
+                    <div class="box carBox"></div>
+                    <div class="box carBox"></div>
+                    <div class="box carBox"></div>
+                    <div class="box carBox"></div>
+                    <div class="box carBox"></div>
+                </div>
+            </div>
+        </div>
+        <div class="lableContiner">
+            <div class="labelBox"></div>
+            <div class="labelBox">
+                <span class="rotate">walk</span>
+            </div>
+            <div class="labelBox">
+                <span class="rotate">cycle</span>
+            </div>
+            <div class="labelBox">
+                <span class="rotate">car</span>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

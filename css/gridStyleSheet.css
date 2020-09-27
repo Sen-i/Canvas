@@ -1,0 +1,93 @@
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: "Verdana", "Geneva", "sans-serif";
+    background-color: #ffffff;
+}
+
+.chartContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-direction: column;
+}
+
+.chart {
+    display: flex; 
+}
+
+.numberContiner {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    border: none;
+    border-right: 3px solid #575656;
+    color: #575656;
+}
+
+.gridContiner {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid #575656;
+}
+
+.walkBlocks, .cycleBlocks, .carBlocks { 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 3px solid #575656;
+    border-left: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.firstBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+
+.labelBox {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.lableContiner {
+    display: flex;
+    flex-direction: row;
+    color: #575656;
+}
+
+.rotate {
+    display: inline-block;
+    transform: rotate(45deg); 
+    -moz-transform: rotate(45deg);
+  }
+
+.redBackground {
+    background-color: #ff0000;
+}
+
+.yellowBackground {
+    background-color: #ffc000;
+}
+
+.blueBackground {
+    background-color: #0070c0;
+}
