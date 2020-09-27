@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 62.5%;
-    font-family: "spartan";
+    font-family: "Verdana", "Geneva", "sans-serif";
     background-color: #ffffff;
 }
 
@@ -24,13 +24,14 @@ body {
     flex-direction: column-reverse;
     justify-content: center;
     border: none;
-    border-right: 2px solid #6b6b6b;
+    border-right: 3px solid #575656;
+    color: #575656;
 }
 
 .gridContiner{
     display: flex;
     flex-direction: row;
-    border-bottom: 2px solid #6b6b6b;
+    border-bottom: 3px solid #575656;
 }
 
 .walkBlocks, .cycleBlocks, .carBlocks{
@@ -44,7 +45,7 @@ body {
     align-items: center;
     height: 50px;
     width: 50px;
-    border: 2px solid #6b6b6b;
+    border: 3px solid #575656;
     border-left: 0;
     border-bottom: 0;
     text-align: center;
@@ -70,6 +71,7 @@ body {
 .lableContiner{
     display: flex;
     flex-direction: row;
+    color: #575656;
 }
 
 .rotate {
@@ -83,9 +85,9 @@ body {
 }
 
 .yellowBackground{
-    background-color: #ffd900;
+    background-color: #ffc000;
 }
 
 .blueBackground{
-    background-color: #1900ff;
+    background-color: #0070c0;
 }

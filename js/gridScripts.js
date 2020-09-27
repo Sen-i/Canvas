@@ -1,4 +1,4 @@
-console.log('he world!')
+
 let walk = 4;
 let cycle = 1;
 let car = 3;
