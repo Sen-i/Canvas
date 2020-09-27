@@ -7,7 +7,7 @@ body {
     background-color: #ffffff;
 }
 
-.chartContainer{
+.chartContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,11 +15,11 @@ body {
     flex-direction: column;
 }
 
-.chart{
+.chart {
     display: flex; 
 }
 
-.numberContiner{
+.numberContiner {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -28,18 +28,18 @@ body {
     color: #575656;
 }
 
-.gridContiner{
+.gridContiner {
     display: flex;
     flex-direction: row;
     border-bottom: 3px solid #575656;
 }
 
-.walkBlocks, .cycleBlocks, .carBlocks{
+.walkBlocks, .cycleBlocks, .carBlocks { 
     display: flex;
     flex-direction: column-reverse;
 }
 
-.box{
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@ body {
     text-align: center;
 }
 
-.firstBox{
+.firstBox {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +59,7 @@ body {
     width: 50px;
 }
 
-.labelBox{
+.labelBox {
     display: flex;
     height: 50px;
     width: 50px;
@@ -68,7 +68,7 @@ body {
     padding-top: 5px;
 }
 
-.lableContiner{
+.lableContiner {
     display: flex;
     flex-direction: row;
     color: #575656;
@@ -80,14 +80,14 @@ body {
     -moz-transform: rotate(45deg);
   }
 
-.redBackground{
+.redBackground {
     background-color: #ff0000;
 }
 
-.yellowBackground{
+.yellowBackground {
     background-color: #ffc000;
 }
 
-.blueBackground{
+.blueBackground {
     background-color: #0070c0;
 }
