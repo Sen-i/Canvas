@@ -13,6 +13,38 @@
 
 <body>
     <script src="js/gridScripts.js" async></script>
+
+    <div>
+        <label for="walkParameter">Number of Children who walk:</label>
+        <select id="walkParameter" name="walk">
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+            <option value="0">0</option>
+        </select>
+        <label for="cycleParameter">Number of Children who cycle:</label>
+        <select id="cycleParameter" name="cycle">
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+            <option value="0">0</option>
+        </select>
+        <label for="carParameter">Number of Children who travel by car:</label>
+        <select id="carParameter" name="car">
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+            <option value="0">0</option>
+        </select>
+        <button value="send" id="submit" onclick="generateGrid()">Enter</button>
+    </div>
+
     <div class="chartContainer">
         <div class="chart">
             <div class="numberContiner">
