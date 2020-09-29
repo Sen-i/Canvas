@@ -8,6 +8,7 @@
     <title>Canvas</title>
 
     <link rel="stylesheet" href="css/gridStyleSheet.css">
+    <link rel="stylesheet" href="css/canvasStyleSheet.css">
 
 </head>
 
@@ -44,50 +45,71 @@
         </select>
         <button value="send" id="submit" onclick="generateGrid()">Enter</button>
     </div>
-
-    <div class="chartContainer">
-        <div class="chart">
-            <div class="numberContiner">
-                <div class="firstBox">1</div>
-                <div class="firstBox">2</div>
-                <div class="firstBox">3</div>
-                <div class="firstBox">4</div>
-                <div class="firstBox">5</div>
+    <div class="canvas">
+        <div class="question">
+            <h3>How many children walk?</h3>
+        </div>
+        <div class="contentContainer">
+            <div class="chartContainer">
+                <div class="chart">
+                    <div class="numberContainer">
+                        <div class="firstBox">1</div>
+                        <div class="firstBox">2</div>
+                        <div class="firstBox">3</div>
+                        <div class="firstBox">4</div>
+                        <div class="firstBox">5</div>
+                    </div>
+                    <div class="gridContainer">
+                        <div class="walkBlocks">
+                            <div class="box walkBox"></div>
+                            <div class="box walkBox"></div>
+                            <div class="box walkBox"></div>
+                            <div class="box walkBox"></div>
+                            <div class="box walkBox"></div>
+                        </div>
+                        <div class="cycleBlocks">
+                            <div class="box cycleBox"></div>
+                            <div class="box cycleBox"></div>
+                            <div class="box cycleBox"></div>
+                            <div class="box cycleBox"></div>
+                            <div class="box cycleBox"></div>
+                        </div>
+                        <div class="carBlocks">
+                            <div class="box carBox"></div>
+                            <div class="box carBox"></div>
+                            <div class="box carBox"></div>
+                            <div class="box carBox"></div>
+                            <div class="box carBox"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lableContainer">
+                    <div class="labelBox"></div>
+                    <div class="labelBox">
+                        <span class="rotate">walk</span>
+                    </div>
+                    <div class="labelBox">
+                        <span class="rotate">cycle</span>
+                    </div>
+                    <div class="labelBox">
+                        <span class="rotate">car</span>
+                    </div>
+                </div>
             </div>
-            <div class="gridContiner">
-                <div class="walkBlocks">
-                    <div class="box walkBox"></div>
-                    <div class="box walkBox"></div>
-                    <div class="box walkBox"></div>
-                    <div class="box walkBox"></div>
-                    <div class="box walkBox"></div>
-                </div>
-                <div class="cycleBlocks">
-                    <div class="box cycleBox"></div>
-                    <div class="box cycleBox"></div>
-                    <div class="box cycleBox"></div>
-                    <div class="box cycleBox"></div>
-                    <div class="box cycleBox"></div>
-                </div>
-                <div class="carBlocks">
-                    <div class="box carBox"></div>
-                    <div class="box carBox"></div>
-                    <div class="box carBox"></div>
-                    <div class="box carBox"></div>
-                    <div class="box carBox"></div>
-                </div>
+            <div class="answerContainer">
+                <div class="answer"></div>
             </div>
         </div>
-        <div class="lableContiner">
-            <div class="labelBox"></div>
-            <div class="labelBox">
-                <span class="rotate">walk</span>
+        <div class="footer">
+            <div>Statistics</div>
+            <div class="logoContiner">
+                <img class="logo"
+                    src="https://static1.squarespace.com/static/5b85038c266c0746641358a9/t/5ed12a0810c5fb45a55d2259/1599665650123/">
             </div>
-            <div class="labelBox">
-                <span class="rotate">cycle</span>
-            </div>
-            <div class="labelBox">
-                <span class="rotate">car</span>
+        </div>
+        <div class="copyrightContiner">
+            <div class="copyright">
+                &#169numberfit2020
             </div>
         </div>
     </div>
