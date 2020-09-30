@@ -1,5 +1,5 @@
 /**
- * Uses html2canvas library to convert html to pdf 
+ * Uses html2canvas library to convert html to pdf and download it.
  */
 function createPDFfromHTML() {
     var HTML_Width = $(".canvas").width();
