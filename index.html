@@ -14,8 +14,12 @@
 
 <body>
     <script src="js/gridScripts.js" async></script>
+    <script src="js/exportScripts.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
 
-    <div>
+    <div class="parameterContainer">
         <label for="walkParameter">Number of Children who walk:</label>
         <select id="walkParameter" name="walk">
             <option value="5">5</option>
@@ -43,9 +47,9 @@
             <option value="1">1</option>
             <option value="0">0</option>
         </select>
-        <button value="send" id="submit" onclick="generateGrid()">Enter</button>
+        <button value="send" id="submit" onclick="generateGrid()">Generate</button>
     </div>
-    <div class="canvas">
+    <div class="canvas" id="capture">
         <div class="question">
             <h3>How many children walk?</h3>
         </div>
@@ -97,14 +101,13 @@
                 </div>
             </div>
             <div class="answerContainer">
-                <div class="answer"></div>
+                <img class="answer" src="./assets/box.svg" alt="answerBox">
             </div>
         </div>
         <div class="footer">
             <div>Statistics</div>
             <div class="logoContiner">
-                <img class="logo"
-                    src="https://static1.squarespace.com/static/5b85038c266c0746641358a9/t/5ed12a0810c5fb45a55d2259/1599665650123/">
+                <img class="logo" src="./assets/numberfit_logo_new.png">
             </div>
         </div>
         <div class="copyrightContiner">
@@ -112,6 +115,10 @@
                 &#169numberfit2020
             </div>
         </div>
+    </div>
+    <div class="exportContainer">
+        <button value="send" id="submit" onclick="createPDFfromHTML()">Save as Pdf</button>
+        <button value="send" id="submit" onclick="openNewTab()">Show in New Tab</button>
     </div>
 </body>
 

@@ -1,4 +1,6 @@
-
+/**
+ *  Generates the coloured grid based on dropdown input.
+ */
 function generateGrid() {
     let walk = document.getElementById("walkParameter").value;
     let cycle = document.getElementById("cycleParameter").value;
@@ -30,5 +32,4 @@ function generateGrid() {
             carBox.classList.remove('redBackground')
         }
     });
-
 }

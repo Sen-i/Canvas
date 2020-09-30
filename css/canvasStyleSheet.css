@@ -13,6 +13,7 @@ body {
     width: 475px;
     height: 475px;
     border: solid 4px #CCFFCC;
+    margin: 0 auto;
 }
 
 .contentContainer {
@@ -29,9 +30,7 @@ body {
 
 .answer {
     display:flex;
-    height: 100px;
-    width: 150px;
-    border: 3px dashed #575656;
+    background: #ffffff;
 }
 
 .answerContainer {
@@ -57,10 +56,25 @@ body {
     text-align: center;
     background-color: #ffffff;
     width: 100px;
+    position: relative;
+    bottom: 2px;
 }
 
 .copyrightContiner {
     display: flex;
     width: 100%;
     justify-content: center;
+}
+
+.parameterContainer {
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.exportContainer {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
 }
